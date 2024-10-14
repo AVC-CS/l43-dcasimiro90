@@ -1,10 +1,10 @@
 def main():
+    numbers = [0] * 5
+    for i in range(len(numbers)):
+        numbers[i] = int(input("Enter a value:"))       
     total = 0
-    i = 0 
-    while i < 5:
-           num = int(input("Enter your input:"))
+    for num in numbers:
            total += num
-           i += 1
         
     print(total)
 
